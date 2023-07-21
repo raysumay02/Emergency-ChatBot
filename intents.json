@@ -1,0 +1,289 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "Good Morning!"
+            ],
+            "responses": [
+                "Hello, thanks for logging into EMC",
+                "EMC at your Service",
+                "Hi there I am EMC at your Service, what is your emergency?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later,.........",
+                "Good Luck!!",
+                "Honoured to be of service!!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
+                "Glad to be of service!!"
+            ]
+        },
+        {
+            "tag": "1.emergency_contact",
+            "patterns": [
+                "I need emergency contact numbers",
+                "Can you provide me with emergency contact details?",
+                "Who should I contact in case of an emergency?"
+            ],
+            "responses": [
+                "Emergency contacts: 100 FOR FIRE, 102 FOR AMBULANCE, 100 FOR POLICE",
+                "NATIONAL EMERGENCY HELPLINE----> 112"
+            ]
+        },
+        {
+            "tag": "2.medical_assistance",
+            "patterns": [
+                "I need medical assistance",
+                "Is there a hospital nearby?",
+                "Where can I find a doctor?",
+                "I need medical help!!!!"
+            ],
+            "responses": [
+                "Please dial 112 and state your emergency!",
+                "Click----> 'Google-maps/Hospitals Near me",
+                "Click----> 'Google-maps/Doctors Near me",
+                "Call 102 for AMBULANCE"
+            ]
+        },
+        {
+            "tag": "3.report_incident",
+            "patterns": [
+                 "I want to report an incident",
+                 "How can I report a crime?",
+                 "There has been an accident, what should I do?"
+            ],
+            "responses": [
+                "To report a crime, call your local police station's non-emergency hotline or emergency number",
+                "Provide details of the incident, including location, time, and description of the crime. Stay calm and follow instructions given by the authorities. Remember, reporting crimes promptly helps ensure the safety of your community.",
+                "To report an incident, contact local authorities immediately. Dial the emergency hotline or non-emergency number to provide essential details such as location, time, and description. Prompt reporting helps ensure swift response and necessary assistance.",
+                "To report a burglary, call the police immediately. Provide the exact location, details of the burglary, and any relevant information. Stay safe and do not disturb the crime scene until authorities arrive."
+            ]
+        },
+        {
+            "tag": "4.ask_location",
+            "patterns": [
+                "Where am I?",
+                "What's my current location?",
+                "Can you track my location?",
+                " need help, but I don't know where I am."
+            ],
+            "responses": [
+                "click--> https://www.google.com/mymaps/viewer?mid=1nxxfsdOOs2x2HPEsNV-YlJDLFzM&hl=en",
+                "Go to Google maps!!!"
+            ]
+        },
+        {
+            "tag": "5.request_ambulance",
+            "patterns": [
+                "I need an ambulance.",
+                "Can you arrange an ambulance for me?",
+                "Someone is injured and requires immediate medical attention."
+            ],
+            "responses": [
+                "Call 102 National Ambulance Service",
+                "Dial 102",
+                "Reach nearby Hospital"
+            ]
+        },
+        {
+            "tag": "6.request_police",
+            "patterns": [
+                "I need to contact the police",
+                "There is a crime happening, and I need police assistance.",
+                "Can you provide me with the local police station's contact details?"
+            ],
+            "responses": [
+                "Dial 102",
+                "Call 102 immediately"
+            ]
+        },
+        {
+            "tag": "7.ask_safety_tips",
+            "patterns": [
+                "How can I stay safe during an emergency?",
+                "What are some safety precautions I should take?",
+                "Do you have any tips for staying safe during a natural disaster?"
+            ],
+            "responses": [
+                "Stay alert and aware of your surroundings.",
+                "Lock all doors and windows before leaving home or going to bed.",
+                "Keep valuables out of sight.",
+                "Install security cameras or alarm systems.",
+                "Avoid walking alone at night.",
+                "Trust your instincts and report any suspicious activity to the authorities.",
+                "Have emergency contacts saved on your phone.",
+                "Practice fire safety and have a fire escape plan.",
+                "Prepare an emergency kit with essential supplies.",
+                "Stay informed about weather conditions and follow official instructions during emergencies"
+            ]
+        },
+        {
+            "tag": "8.ask_fire_department",
+            "patterns": [
+                "There is a fire. How can I reach the fire department?",
+                "Can you provide me with the contact information for the local fire department?"
+            ],
+            "responses": [
+                "DIAL 101",
+                "CALL 101"
+            ]
+        },
+        {
+            "tag": "9.request_evacuation_information",
+            "patterns": [
+                "Is there an evacuation order in my area?",
+                "Where should I go in case of an evacuation?",
+                " How can I get information about evacuation routes?"
+            ],
+            "responses": [
+                "Listen to official announcements: Stay tuned to local news sources, radio, or television for updates and instructions during an evacuation situation. Authorities will provide information on evacuation routes, shelters, or designated meeting points.",
+                "Emergency shelters: Local authorities often establish temporary emergency shelters in designated locations during evacuations. These shelters may be schools, community centers, or other facilities capable of accommodating displaced individuals. Check with local authorities or emergency management agencies to determine the nearest available shelter.",
+                "Evacuation routes: Be aware of the predetermined evacuation routes in your area. These routes are typically designed to lead you away from the affected area to safer locations. Follow these routes as directed, and avoid taking shortcuts or unknown paths."
+            ]
+        },
+        {
+            "tag": "10.request_first_aid_instructions",
+            "patterns": [
+                "How do I perform CPR?",
+                "Can you guide me through basic first aid for a specific injury?",
+                "I need instructions on how to handle a medical emergency."
+            ],
+            "responses": [
+                "Assess the situation: Before providing first aid, ensure that the area is safe for both you and the injured person. Assess the situation to identify potential dangers and take appropriate measures to minimize them.\n",
+                "Ensure personal safety: Use gloves or other protective equipment, if available, to protect yourself from bodily fluids and potential infections. Your safety should always be a priority.",
+                "Perform CPR (Cardiopulmonary Resuscitation): If the person is unresponsive and not breathing, begin CPR. Place the heel of your hand on the center of the person's chest, interlock your other hand on top, and perform chest compressions at a rate of 100-120 compressions per minute. After 30 compressions, give two rescue breaths by tilting the person's head back, lifting their chin, and sealing your mouth over theirs while delivering breaths.",
+                "Control bleeding: Apply direct pressure using a clean cloth, gauze, or your hand to the site of bleeding. Maintain pressure until the bleeding stops or medical help arrives. If blood soaks through, add more layers of cloth without removing the initial ones.",
+                "Provide comfort and reassurance: While waiting for medical professionals to arrive, offer emotional support and reassurance to the injured person. Keep them calm and comfortable."
+            ]
+        },
+        {
+            "tag": "11.ask_about_natural_disasters",
+            "patterns": [
+                "What should I do during an earthquake?",
+                "How can I prepare for a hurricane?",
+                "Can you provide information about different types of natural disasters?"
+            ],
+            "responses": [
+                "Drop, cover, and hold on: Drop down to the ground, take cover under a sturdy piece of furniture, and hold on until the shaking stops\n.Stay indoors: If you are indoors, stay there until it is safe to exit. Avoid using elevators and be cautious of falling objects.Evacuate if necessary: If you are in a high-rise building, near the coast, or in an area prone to landslides, follow evacuation orders.",
+                "Follow evacuation orders: If authorities issue evacuation orders, follow them promptly.\nSecure your property: Protect windows, doors, and outdoor objects. Move to a safe location within your home away from windows.\nStay informed: Monitor weather updates and listen to local authorities for instructions.",
+                "Remember, it's crucial to stay informed, have an emergency plan in place, and follow the instructions provided by local authorities during a natural disaster."
+            ]
+        },
+        {
+            "tag": "12.ask_about_power_outage",
+            "patterns": [
+                "There is a power outage. What should I do?",
+                "How can I report a power outage?",
+                "Are there any current power outages in my area?"
+            ],
+            "responses": [
+                "Contact your local power utility company: Reach out to your electricity provider or visit their website. They often have outage maps or customer service representatives who can provide information about any known power outages in your area.",
+                "Check local news sources: Local news websites, radio stations, or TV stations may report on power outages affecting your region. They may also provide updates on estimated restoration times.",
+                "Social media: Check social media platforms like Twitter or Facebook. Utility companies or local emergency management agencies often use social media to share updates about power outages and restoration efforts."
+            ]
+        },
+        {
+            "tag": "13.request_road_assistance",
+            "patterns": [
+                "I need help with a vehicle breakdown.",
+                "Can you provide roadside assistance?",
+                "Who should I contact for car-related emergencies?"
+            ],
+            "responses": [
+                "Emergency services: If you or someone else is in immediate danger or there is a severe accident, call the emergency services hotline in your country. In the United States, it is 911. Emergency services can dispatch police, firefighters, or medical personnel to the scene as needed.",
+                "Roadside assistance: If you experience a breakdown, flat tire, or other non-life-threatening car issue, you can contact a roadside assistance service. Many automobile clubs, insurance companies, or vehicle manufacturers provide roadside assistance as part of their services. Keep the contact information for your roadside assistance provider readily available.",
+                "Towing service: If your vehicle is not drivable or requires more extensive repairs, you may need to contact a towing service to transport it to a nearby mechanic or service center. Some roadside assistance services include towing as part of their offering, but if you don't have access to one, you can search for local towing companies in your area."
+            ]
+        },
+        {
+            "tag": "14.ask_about_emergency_kits",
+            "patterns": [
+              " What should I include in my emergency kit?",
+              "Can you provide a checklist for emergency supplies?",
+              "How can I prepare an emergency kit for my family?"
+            ],
+            "responses": [
+                "Water: Aim for at least one gallon of water per person per day, for at least three days. This is for drinking and sanitation purposes.\n Non-perishable food: Stock up on canned or dried food that doesn't require cooking, like canned fruits, vegetables, beans, soups, energy bars, peanut butter, nuts, etc. Remember to consider any special dietary needs or allergies.\nManual can opener: In case you have canned food in your emergency kit, a manual can opener is essential.\nFirst aid kit: Include bandages, antiseptic wipes, gauze, adhesive tape, pain relievers, scissors, tweezers, and any necessary prescription medications.\n",
+                "Flashlights and extra batteries: Have multiple flashlights in your kit, as well as spare batteries to ensure they stay functional.\n",
+                "Portable phone charger: A portable power bank can be valuable for charging cell phones during power outages.\n",
+                "Battery-powered or hand-crank radio: A radio can help you stay informed about weather updates and emergency broadcasts.\n",
+                "Whistle: This can be used to signal for help in case you're trapped or need assistance.\n",
+                "Multi-tool or Swiss Army knife:"
+            ]
+        },
+        {
+            "tag": "15.request_animal_rescue",
+            "patterns": [
+                "There is an injured animal. Can you help with animal rescue?",
+                "How can I report an animal in distress during an emergency?",
+                "I need assistance with rescuing an abandoned pet"
+
+            ],
+            "responses": [
+                "Assess the Situation: Observe the pet from a distance and assess their condition. Determine if the animal appears to be injured, sick, or in immediate danger. Approach with caution, as some abandoned pets might be scared or aggressive due to their circumstances.",
+                "Capture and Contain: If the pet is friendly and approachable, use a leash or carrier, if available, to safely secure them. For more cautious or scared animals, you may need to use food as bait to coax them into a carrier or secure area.",
+                "Contact Local Shelters and Rescue Groups: Reach out to local animal shelters or rescue groups to report the abandoned pet and ask if they can take the animal in or offer assistance",
+                "Check for Identification: If you manage to capture the pet, check for any identification, such as a collar with tags, tattoos, or microchips. This could help in locating the pet's owner, if they are not truly abandoned.",
+                "Do Not Put Yourself at Risk: While it's essential to help animals in distress, avoid putting yourself in harm's way. Some animals may be frightened or aggressive during emergencies, so keep a safe distance and do not approach them directly.",
+                "Contact Local Animal Control: The quickest way to report an animal in distress is to contact your local animal control or animal welfare organization. Look up their phone number or emergency hotline and provide them with all the relevant details about the animal's location, condition, and the nature of the emergency.",
+                "Use Emergency Services: If the situation is urgent, and you cannot reach animal control, consider calling the local emergency services (police or fire department) for immediate assistance. They can coordinate with animal control or other appropriate agencies."
+            ]
+        },
+        {
+            "tag": "16.ask_about_emergency_training",
+            "patterns": [
+                "Are there any emergency training programs available?",
+                "Can you recommend courses for emergency preparedness and response?",
+                "How can I learn skills to handle emergencies effectively?"
+            ],
+            "responses": [
+                "Take First Aid and CPR Courses: Enroll in certified First Aid and CPR (Cardiopulmonary Resuscitation) courses. These courses teach essential life-saving techniques, such as how to treat wounds, perform CPR, and assist someone who is choking. Contact local organizations, community centers, or healthcare providers to find available courses.",
+                "Join Emergency Response Training Programs: Look for emergency response training programs offered by organizations like the Red Cross or local emergency services. These programs may cover a broader range of emergency scenarios and provide hands-on training.",
+                "Practice with Simulations and Drills: Participate in emergency simulations and drills whenever possible. Schools, workplaces, and communities sometimes conduct these exercises to prepare people for various emergency scenarios.",
+                "Stay Informed: Stay up-to-date with the latest emergency response protocols and guidelines from local authorities and reputable sources. Follow official emergency management agencies on social media or subscribe to alerts for your area.",
+                "Volunteer for Disaster Relief Organizations: Consider volunteering for organizations that respond to disasters and emergencies. This hands-on experience will provide valuable "
+            ]
+        },
+        {
+            "tag": "17.request_volunteer_opportunities",
+            "patterns": [
+                "I want to help during emergencies. Are there any volunteer opportunities?",
+                "How can I contribute as a volunteer during an emergency situation?",
+                "Can you provide information about volunteering for disaster relief efforts?"
+            ],
+            "responses": [
+                "Register with Volunteer Networks: Many regions have volunteer networks that mobilize volunteers during emergencies. Register with these networks to be notified of volunteer opportunities when disasters strike.",
+                "Provide Language Support: If you are fluent in multiple languages, offer your assistance as a translator or interpreter to help communicate with diverse communities during emergencies.",
+                "Help with Logistics and Communications: Volunteers are often needed to help with logistical tasks, such as organizing supplies, managing communication channels, and coordinating resources for responders.",
+                "Offer Psychological Support: Traumatic events can take an emotional toll on survivors. If you have experience in counseling, psychology, or mental health support, you can volunteer to provide emotional support and crisis counseling.",
+                "Join Local Emergency Response Organizations: Look for local organizations, such as the Red Cross, Community Emergency Response Teams (CERT), or other disaster relief groups in your area. These organizations often train volunteers to respond effectively during emergencies."
+            ]
+        }
+    ]
+}
